@@ -116,13 +116,13 @@ Choose same VPC and Subnets (multi-AZ)
 
 Attach Target Group (ubuntu-tg)
 
+Create the ALB
+
 <img width="1919" height="910" alt="Screenshot 2025-11-11 112306" src="https://github.com/user-attachments/assets/28e0e5fc-193f-4e52-b9fc-6add241e8eda" />
 
 <img width="1919" height="903" alt="Screenshot 2025-11-11 112750" src="https://github.com/user-attachments/assets/6d8bf4ad-265d-49bb-a547-1396c750a067" />
 
 <img width="1919" height="959" alt="Screenshot 2025-11-11 112356" src="https://github.com/user-attachments/assets/2fbc8a7d-67fa-4dee-82ef-a7409ea65ada" />
-
-Create the ALB
 
 <img width="1919" height="923" alt="Screenshot 2025-11-11 112500" src="https://github.com/user-attachments/assets/8aa3a4af-dbc9-4166-8662-4cb7a4838866" />
 
