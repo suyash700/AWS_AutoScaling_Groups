@@ -1,4 +1,4 @@
-<img width="1915" height="805" alt="Screenshot 2025-08-20 194133" src="https://github.com/user-attachments/assets/b4c9749e-b1df-423e-b63b-587c7426f7ea" /># 🚀 AWS Auto Scaling Group Setup using Ubuntu & Launch Template
+# Auto Scaling Group Setup using Ubuntu & Launch Template
 
 ## 🧭 Objective
 
