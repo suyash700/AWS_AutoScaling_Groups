@@ -1,9 +1,15 @@
-# 🚀 AWS Auto Scaling Group Setup using Ubuntu & Launch Template
+<img width="1915" height="805" alt="Screenshot 2025-08-20 194133" src="https://github.com/user-attachments/assets/b4c9749e-b1df-423e-b63b-587c7426f7ea" /># 🚀 AWS Auto Scaling Group Setup using Ubuntu & Launch Template
 
 ## 🧭 Objective
 
 Create a fully functional **Auto Scaling Group (ASG)** using a **Launch Template** with **Ubuntu**, integrated with an **Application Load Balancer (ALB)**, and implement **Dynamic Scaling Policies** based on CPU utilization.
 
+
+## DEMO
+
+<img width="1915" height="805" alt="Screenshot 2025-08-20 194133" src="https://github.com/user-attachments/assets/5791d565-18e0-4dcf-9379-a316378d603a" />
+
+Automatic Scale-in/Scale-out.. 
 ---
 
 ## 🧩 Step 1 — Create Launch Template
