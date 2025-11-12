@@ -1,5 +1,3 @@
-# AWS_AutoScaling_Groups
-
 # 🚀 AWS Auto Scaling Group Setup using Ubuntu & Launch Template
 
 ## 🧭 Objective
