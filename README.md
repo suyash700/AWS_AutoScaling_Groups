@@ -29,13 +29,14 @@ Create a fully functional **Auto Scaling Group (ASG)** using a **Launch Template
      
 3. In **Advanced Details → User Data**, paste:
 
- 
+ ```
    #!/bin/bash
    apt update -y
    apt install apache2 -y
    systemctl enable apache2
    echo "<h1>Hello from Auto Scaling - Ubuntu Instance</h1>" > /var/www/html/index.html
    systemctl start apache2
+```
    
 <img width="1919" height="971" alt="Screenshot 2025-11-11 112015" src="https://github.com/user-attachments/assets/72b006c3-191c-4f17-96bc-9658536a709b" />
 
