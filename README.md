@@ -55,8 +55,6 @@ Go to Auto Scaling Groups → Create ASG
 
 Select the Launch Template you just created.
 
-<img width="1919" height="910" alt="Screenshot 2025-11-11 112306" src="https://github.com/user-attachments/assets/f6e3e4a8-a5dc-4c16-97aa-22cba0bab508" />
-
 
 Choose your VPC and 2 Availability Zones (e.g., ap-south-1a, ap-south-1b)
 
