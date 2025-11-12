@@ -148,6 +148,10 @@ Visit your ALB DNS name
 
 Health checks should show healthy in the Target Group.
 
+
+___
+___
+
 ## 📈 Step 4 — Configure Dynamic Scaling Policy
 
 Go to Auto Scaling Group → Automatic Scaling → Add Policy
@@ -156,27 +160,21 @@ Go to Auto Scaling Group → Automatic Scaling → Add Policy
 
 Choose Target Tracking Scaling Policy
 
-Configure:
-
-Metric: Average CPU Utilization
-
-Target value: 60%
+Configure: Metric: Average CPU Utilization | Target value: 60%
 
 <img width="1919" height="919" alt="Screenshot 2025-11-11 112849" src="https://github.com/user-attachments/assets/1c4a41ed-4e7a-4d92-ba36-94b960663ced" />
 
+Cooldown: 120 seconds | Save
 
-Cooldown: 120 seconds
+## 🧪 Step 5 — Test Auto Scaling (Scale-Out and Scale-In)
 
-Save
-
-🧪 Step 5 — Test Auto Scaling (Scale-Out and Scale-In)
 5.1 SSH into one of your EC2 instances:
 
 ssh -i "your-key.pem" ubuntu@<instance-public-ip>
 
 5.2 Install the stress tool:
-sudo apt install stress -y
 
+sudo apt install stress -y
 
 5.3 Generate high CPU load (fast trigger):
 
@@ -184,14 +182,13 @@ stress --cpu 8 --timeout 90
 
 <img width="1457" height="780" alt="Screenshot 2025-11-11 113317" src="https://github.com/user-attachments/assets/ed992c5c-0b08-4bfa-9a80-0e177d405f15" />
 
-
 Monitor EC2 → Auto Scaling → Activity
 
 You should see new instances launch (scale-out)
 
 <img width="1919" height="915" alt="Screenshot 2025-11-11 113033" src="https://github.com/user-attachments/assets/1a6d952e-7811-40be-bfbd-8d060367c5ec" />
 
-🏁 Result
+## 🏁 Result
 
 ✅ Launch Template (Ubuntu + User Data)
 ✅ Multi-AZ Auto Scaling Group
