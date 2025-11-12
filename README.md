@@ -191,9 +191,15 @@ You should see new instances launch (scale-out)
 ## 🏁 Result
 
 ✅ Launch Template (Ubuntu + User Data)
+
 ✅ Multi-AZ Auto Scaling Group
+
 ✅ ALB with Target Group and Health Checks
+
 ✅ Dynamic Scaling Policy (CPU-based)
+
 ✅ Validation with stress test and cleanup
 
 You can now include this setup in your project report or portfolio as a complete AWS Auto Scaling demonstration.
+
+# AUTHOR : SUYASH DAHITULE
