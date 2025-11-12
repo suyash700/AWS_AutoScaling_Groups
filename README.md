@@ -47,7 +47,7 @@ Create a fully functional **Auto Scaling Group (ASG)** using a **Launch Template
 <img width="1919" height="964" alt="Screenshot 2025-11-11 112053" src="https://github.com/user-attachments/assets/f18a9614-4719-4a76-8505-2e585dfe3d35" />
 
 
-🏗️ Step 2 — Create Auto Scaling Group
+## 🏗️ Step 2 — Create Auto Scaling Group
 
 Go to Auto Scaling Groups → Create ASG
 
@@ -61,11 +61,7 @@ Choose your VPC and 2 Availability Zones (e.g., ap-south-1a, ap-south-1b)
 
 Set:
 
-Min capacity: 1
-
-Desired capacity: 1
-
-Max capacity: 3
+Min capacity: 1 | Desired capacity: 2 | Max capacity: 3
 
 Skip Load Balancer for now.
 
@@ -74,7 +70,12 @@ Create the ASG.
 Verify that one instance is launched and running.
 
 
-🌐 Step 3 — Create Load Balancer and Target Group
+---
+---
+
+
+## 🌐 Step 3 — Create Load Balancer and Target Group
+
 3.1 Create Target Group
 
 Go to EC2 → Target Groups → Create target group
@@ -103,11 +104,7 @@ Click Next → Create target group
 
 Go to EC2 → Load Balancers → Create Load Balancer → Application Load Balancer
 
-Configure:
-
-Scheme: Internet-facing
-
-Listener: HTTP (Port 80)
+Configure: Scheme: Internet-facing | Listener: HTTP (Port 80)
 
 
 <img width="1918" height="919" alt="Screenshot 2025-11-11 112139" src="https://github.com/user-attachments/assets/fd0f5602-4124-4248-8df4-674ec1ff0c42" />
@@ -151,7 +148,7 @@ Visit your ALB DNS name
 
 Health checks should show healthy in the Target Group.
 
-📈 Step 4 — Configure Dynamic Scaling Policy
+## 📈 Step 4 — Configure Dynamic Scaling Policy
 
 Go to Auto Scaling Group → Automatic Scaling → Add Policy
 
